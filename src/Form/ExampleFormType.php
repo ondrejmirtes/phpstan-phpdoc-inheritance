@@ -13,10 +13,12 @@ final class ExampleFormType extends AbstractType implements DataTransformerInter
     /** {@inheritdoc} */
     public function transform($value)
     {
+        return $value;
     }
 
     /** {@inheritdoc} */
     public function reverseTransform($value)
     {
+        return $value;
     }
 }
