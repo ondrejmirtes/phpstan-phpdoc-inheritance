@@ -10,6 +10,5 @@ parameters:
     symfony:
         container_xml_path: var/cache/dev/App_KernelDevDebugContainer.xml
     level: 8
-    checkGenericClassInNonGenericObjectType: false
     paths:
         - src
